@@ -1,0 +1,16 @@
+{
+  "name": "button",
+  "displayName": "按钮",
+  "description": "Button 按钮，支持自定义大小、颜色等",
+  "version": "1.0.0",
+  "category": "basic",
+  "dependencies": [],
+  "miniprogram": {
+    "minVersion": ""
+  },
+  "config": {
+    "usingComponents": {
+      "button": "/components/button/button"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "@xkfe/wx-components",
+  "version": "0.0.2",
+  "description": "微信小程序组件仓库 - 提供可复用的微信小程序组件",
+  "keywords": [
+    "wechat",
+    "miniprogram",
+    "components",
+    "微信小程序",
+    "组件库",
+    "modal",
+    "virtual-list"
+  ],
+  "author": "xkfe",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xkfe-templates/wx-program.git",
+    "directory": "packages/wx-components"
+  },
+  "bugs": {
+    "url": "https://github.com/xkfe-templates/wx-program/issues"
+  },
+  "homepage": "https://github.com/xkfe-templates/wx-program#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}

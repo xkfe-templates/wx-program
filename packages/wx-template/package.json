@@ -1,0 +1,26 @@
+{
+  "name": "@xkfe/wx-template",
+  "version": "0.0.1",
+  "description": "微信小程序基础项目模板",
+  "keywords": [
+    "wechat",
+    "miniprogram",
+    "template",
+    "微信小程序",
+    "模板"
+  ],
+  "author": "xkfe",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xkfe-templates/wx-program.git",
+    "directory": "packages/wx-template"
+  },
+  "bugs": {
+    "url": "https://github.com/xkfe-templates/wx-program/issues"
+  },
+  "homepage": "https://github.com/xkfe-templates/wx-program#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}

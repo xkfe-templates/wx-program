@@ -1,0 +1,6 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <view class="title text-primary">{{motto}}</view>
+  <view class="desc">开始你的小程序之旅</view>
+  <button type="primary">显示模态框</button>
+</view>

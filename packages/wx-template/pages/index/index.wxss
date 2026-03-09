@@ -1,0 +1,15 @@
+/* pages/index/index.wxss */
+.container {
+  padding-top: 200rpx;
+}
+
+.title {
+  font-size: 48rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+
+.desc {
+  font-size: 28rpx;
+  color: #999;
+}

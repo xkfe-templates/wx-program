@@ -1,0 +1,22 @@
+<!--components/modal/modal.wxml-->
+<view class="modal-mask" wx:if="{{visible}}" bindtap="onMaskTap">
+  <view class="modal-container" catchtap="noop">
+    <view class="modal-header" wx:if="{{title}}">
+      <text class="modal-title">{{title}}</text>
+    </view>
+    <view class="modal-body" wx:if="{{content}}">
+      <text class="modal-content">{{content}}</text>
+    </view>
+    <view class="modal-body" wx:else>
+      <slot></slot>
+    </view>
+    <view class="modal-footer">
+      <view class="modal-btn modal-btn-cancel" wx:if="{{showCancel}}" bindtap="onCancel">
+        {{cancelText}}
+      </view>
+      <view class="modal-btn modal-btn-confirm" bindtap="onConfirm">
+        {{confirmText}}
+      </view>
+    </view>
+  </view>
+</view>

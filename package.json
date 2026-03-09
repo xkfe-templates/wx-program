@@ -1,0 +1,11 @@
+{
+  "name": "wx-program",
+  "private": true,
+  "scripts": {
+    "build": "pnpm --filter wx-cli build",
+    "dev": "pnpm --filter wx-cli dev"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.30.0"
+  }
+}
