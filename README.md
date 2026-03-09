@@ -135,7 +135,7 @@ Changesets 会自动处理包之间的依赖关系，确保按正确顺序发布
 ## 包说明
 
 | 包名 | 描述 |
-|------|------|------|
+|------|------|
 | [@xkfe/wx-cli](https://www.npmjs.com/package/@xkfe/wx-cli) | CLI 工具 |
 | [@xkfe/wx-template](https://www.npmjs.com/package/@xkfe/wx-template) | 项目模板 |
 | [@xkfe/wx-components](https://www.npmjs.com/package/@xkfe/wx-components) | 组件库 |
