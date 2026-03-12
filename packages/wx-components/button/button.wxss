@@ -1,6 +1,7 @@
 .button__wrap {
   position: relative;
 }
+
 .button__thin-border {
   position: absolute;
   width: 200%;
@@ -45,19 +46,17 @@
   overflow: hidden !important;
 }
 
-.button__active::after {
-  content: ' ';
+.button__active-mask {
   background-color: var(--bg-color-hover, rgba(0, 0, 0, 0.2));
   position: absolute;
   width: 100%;
   height: 100%;
   left: 0;
-  right: 0;
   top: 0;
-  transform: none;
   z-index: 1;
-  border-radius: 0;
+  pointer-events: none;
 }
+
 .button__text {
   text-align: center;
   flex-direction: row;
@@ -81,36 +80,36 @@
 }
 
 .button__primary {
-  border-color: var(--primary-color, #465CFF) !important;
-  background: var(--primary-color, #465CFF) !important;
+  border-color: var(--color-primary, #465CFF);
+  background: var(--color-primary, #465CFF);
 }
 
 .button__success {
-  border-color: var(--success-color, #09BE4F) !important;
-  background: var(--success-color, #09BE4F) !important;
+  border-color: var(--color-success, #09BE4F) !important;
+  background: var(--color-success, #09BE4F) !important;
 }
 
 .button__warning {
-  border-color: var(--warning-color, #FFB703) !important;
-  background: var(--warning-color, #FFB703) !important;
+  border-color: var(--color-warning, #FFB703) !important;
+  background: var(--color-warning, #FFB703) !important;
 }
 
 .button__danger {
-  border-color: var(--danger-color, #FF2B2B) !important;
-  background: var(--danger-color, #FF2B2B) !important;
+  border-color: var(--color-danger, #FF2B2B) !important;
+  background: var(--color-danger, #FF2B2B) !important;
 }
 
 .button__purple {
-  border-color: var(--purple-color, #6831FF) !important;
-  background: var(--purple-color, #6831FF) !important;
+  border-color: var(--color-purple, #6831FF) !important;
+  background: var(--color-purple, #6831FF) !important;
 }
 
 .button__gray {
   border-color: var(--bg-color-content, #F8F8F8) !important;
   background: var(--bg-color-content, #F8F8F8) !important;
-  color: var(--primary-color, #465CFF) !important;
+  color: var(--color-primary, #465CFF) !important;
 }
 
 .btn__gray-color {
-  color: var(--primary-color, #465CFF) !important;
+  color: var(--color-primary, #465CFF) !important;
 }

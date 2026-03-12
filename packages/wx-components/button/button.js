@@ -1,5 +1,8 @@
 Component({
-  // 让自定义组件能够像原生按钮（<button>）一样参与表单提交
+  options: {
+    virtualHost: true,
+  },
+  externalClasses: ['custom-class'],
   behaviors: ['wx://form-field-button'],
   properties: {
     //样式类型：primary，success， warning，danger，link，purple，gray
@@ -40,7 +43,7 @@ Component({
       type: String,
       value: ''
     },
-    //按钮大小，优先级高于width和height，medium、small、mini
+    //V1.9.8+ 按钮大小，优先级高于width和height，medium、small、mini
     btnSize: {
       type: String,
       value: ''
@@ -98,6 +101,7 @@ Component({
       type: String,
       value: ''
     },
+    //v2.3.0+
     hoverStopPropagation: {
       type: Boolean,
       value: false
@@ -140,9 +144,9 @@ Component({
     time: 0,
     trigger: false,
     tap: false,
-    c_height: (wx.$fui && wx.$fui.fuiButton.height) || '96rpx',
-    c_size: (wx.$fui && wx.$fui.fuiButton.size) || 32,
-    c_radius: (wx.$fui && wx.$fui.fuiButton.radius) || '16rpx'
+    c_height: '96rpx',
+    c_size: 32,
+    c_radius: '16rpx'
   },
   methods: {
     handleStart() {
@@ -171,23 +175,33 @@ Component({
     },
     handleTap() {
       if (this.disabled) return;
-      this.triggerEvent('click', {
+      this.triggerEvent('tap', {
         index: Number(this.data.index)
       });
     },
-    bindgetuserinfo({ detail = {} } = {}) {
+    bindgetuserinfo({
+      detail = {}
+    } = {}) {
       this.triggerEvent('getuserinfo', detail);
     },
-    bindcontact({ detail = {} } = {}) {
+    bindcontact({
+      detail = {}
+    } = {}) {
       this.triggerEvent('contact', detail);
     },
-    bindgetphonenumber({ detail = {} } = {}) {
+    bindgetphonenumber({
+      detail = {}
+    } = {}) {
       this.triggerEvent('getphonenumber', detail);
     },
-    binderror({ detail = {} } = {}) {
+    binderror({
+      detail = {}
+    } = {}) {
       this.triggerEvent('error', detail);
     },
-    bindopensetting({ detail = {} } = {}) {
+    bindopensetting({
+      detail = {}
+    } = {}) {
       this.triggerEvent('opensetting', detail);
     },
     bindchooseavatar({
@@ -195,13 +209,19 @@ Component({
     } = {}) {
       this.triggerEvent('chooseavatar', detail);
     },
-    bindlaunchapp({ detail = {} } = {}) {
+    bindlaunchapp({
+      detail = {}
+    } = {}) {
       this.triggerEvent('launchapp', detail);
     },
-    agreeprivacyauthorization({ detail = {} } = {}) {
+    agreeprivacyauthorization({
+      detail = {}
+    } = {}) {
       this.triggerEvent('agreeprivacyauthorization', detail);
     },
-    bindgetrealtimephonenumber({ detail = {} } = {}) {
+    bindgetrealtimephonenumber({
+      detail = {}
+    } = {}) {
       this.triggerEvent('getrealtimephonenumber', detail);
     }
   }
