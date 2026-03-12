@@ -1,7 +1,7 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/mine/mine"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",
@@ -14,12 +14,16 @@
     "selectedColor": "#1989fa",
     "list": [
       {
+        "text": "首页",
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "iconPath": "assets/tabbar/home.png",
+        "selectedIconPath": "assets/tabbar/home_active.png"
       },
       {
-        "pagePath": "pages/logs/logs",
-        "text": "日志"
+        "text": "我的",
+        "pagePath": "pages/mine/mine",
+        "iconPath": "assets/tabbar/mine.png",
+        "selectedIconPath": "assets/tabbar/mine_active.png"
       }
     ]
   },

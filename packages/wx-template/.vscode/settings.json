@@ -1,0 +1,4 @@
+{
+    "editor.formatOnSave": true,
+    "minapp-vscode.wxmlFormatter": "wxml", // 指定格式化格式化工具
+}

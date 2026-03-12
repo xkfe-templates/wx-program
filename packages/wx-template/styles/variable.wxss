@@ -57,4 +57,8 @@ page {
   --shadow-sm: 0 2rpx 4rpx rgba(0, 0, 0, 0.05);
   --shadow-md: 0 4rpx 8rpx rgba(0, 0, 0, 0.1);
   --shadow-lg: 0 8rpx 16rpx rgba(0, 0, 0, 0.15);
+
+  /* 点击背景色 */
+	--bg-color-hover: rgba(0, 0, 0, 0.2);
+  --bg-color-content: #F8F8F8;
 }
