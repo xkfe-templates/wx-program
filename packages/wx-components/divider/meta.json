@@ -1,0 +1,16 @@
+{
+  "name": "Divider",
+  "displayName": "分割线",
+  "description": "Divider 分割线，可自定义线条宽度、颜色等。",
+  "version": "1.0.0",
+  "category": "data",
+  "dependencies": [],
+  "miniprogram": {
+    "minVersion": ""
+  },
+  "config": {
+    "usingComponents": {
+      "com-divider": "/components/divider/divider"
+    }
+  }
+}

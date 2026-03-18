@@ -1,0 +1,16 @@
+{
+  "name": "Empty",
+  "displayName": "加载更多",
+  "description": "Empty 缺省页，页面的信息内容为空或信息响应异常的状态。",
+  "version": "1.0.0",
+  "category": "data",
+  "dependencies": [],
+  "miniprogram": {
+    "minVersion": ""
+  },
+  "config": {
+    "usingComponents": {
+      "com-empty": "/components/empty/empty"
+    }
+  }
+}

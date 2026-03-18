@@ -80,36 +80,36 @@
 }
 
 .button__primary {
-  border-color: var(--color-primary, #465CFF);
-  background: var(--color-primary, #465CFF);
+  border-color: var(--primary-color, #465CFF);
+  background: var(--primary-color, #465CFF);
 }
 
 .button__success {
-  border-color: var(--color-success, #09BE4F) !important;
-  background: var(--color-success, #09BE4F) !important;
+  border-color: var(--success-color, #09BE4F) !important;
+  background: var(--success-color, #09BE4F) !important;
 }
 
 .button__warning {
-  border-color: var(--color-warning, #FFB703) !important;
-  background: var(--color-warning, #FFB703) !important;
+  border-color: var(--warning-color, #FFB703) !important;
+  background: var(--warning-color, #FFB703) !important;
 }
 
 .button__danger {
-  border-color: var(--color-danger, #FF2B2B) !important;
-  background: var(--color-danger, #FF2B2B) !important;
+  border-color: var(--danger-color, #FF2B2B) !important;
+  background: var(--danger-color, #FF2B2B) !important;
 }
 
 .button__purple {
-  border-color: var(--color-purple, #6831FF) !important;
-  background: var(--color-purple, #6831FF) !important;
+  border-color: var(--purple-color, #6831FF) !important;
+  background: var(--purple-color, #6831FF) !important;
 }
 
 .button__gray {
-  border-color: var(--bg-color-content, #F8F8F8) !important;
-  background: var(--bg-color-content, #F8F8F8) !important;
-  color: var(--color-primary, #465CFF) !important;
+  border-color: #F8F8F8 !important;
+  background: #F8F8F8 !important;
+  color: var(--primary-color, #465CFF) !important;
 }
 
 .btn__gray-color {
-  color: var(--color-primary, #465CFF) !important;
+  color: var(--primary-color, #465CFF) !important;
 }

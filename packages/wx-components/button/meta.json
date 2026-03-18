@@ -10,7 +10,7 @@
   },
   "config": {
     "usingComponents": {
-      "button": "/components/button/button"
+      "com-button": "/components/button/button"
     }
   }
 }

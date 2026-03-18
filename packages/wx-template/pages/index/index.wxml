@@ -2,5 +2,7 @@
 <view class="container">
   <view class="title text-primary">{{motto}}</view>
   <view class="desc">开始你的小程序之旅</view>
+
+
   <button type="primary" class="btn-custom-class" bind:tap="handleRequest">网络请求</button>
 </view>

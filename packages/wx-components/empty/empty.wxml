@@ -1,0 +1,6 @@
+<view class="empty__wrap {{isFixed?'empty__fixed':''}}" style="margin-top:{{marginTop}}rpx">
+  <image src="{{src || defaultSrc}}" style="width:{{width}}rpx;height:{{height}}rpx" mode="widthFix"></image>
+  <text class="empty__title {{!color?'empty__title-color':''}}" style="color:{{color}};font-size:{{size}}rpx" wx:if="{{title}}">{{title}}</text>
+  <text class="empty__desc {{!descrColor?'empty__descr-color':''}}" style="color:{{descrColor}};font-size:{{descrSize}}rpx" wx:if="{{descr}}">{{descr}}</text>
+  <slot></slot>
+</view>

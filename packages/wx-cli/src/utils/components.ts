@@ -63,6 +63,7 @@ export function buildOptions(metas: ComponentMeta[]) {
   const categoryLabels: Record<string, string> = {
     basic: '基础',
     form: '表单',
+    data: '数据',
     layout: '布局',
     navigation: '导航',
     feedback: '反馈',

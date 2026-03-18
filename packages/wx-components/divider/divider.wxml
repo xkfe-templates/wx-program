@@ -1,0 +1,10 @@
+<view class="divider__wrap" style="height:{{height}}rpx">
+  <view class="divider__wrap" style="height:{{height}}rpx;width:{{width}};">
+    <view class="divider__line" style="width:{{width}};background: {{dividerColor}};"></view>
+    <view class="divider__text-box">
+        <slot></slot>
+        <text class="divider__text" style="font-weight: {{fontWeight}};color: {{color}};font-size:{{size}}rpx;line-height:{{size}} rpx" wx:if="{{text}}">{{text}}</text>
+    </view>
+    <view class="divider__line" style="width:{{width}};background: {{dividerColor}};"></view>
+  </view>
+</view>
